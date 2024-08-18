@@ -1,0 +1,61 @@
+/* Basic reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logo img {
+    height: 40px; /* Adjust the height according to your logo */
+  }
+  
+  .navigation ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navigation ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .header-icons a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 15px;
+    font-size: 18px; /* Adjust the size based on your icon */
+  }
+  
+  /* Add any icon library like FontAwesome for the icons */
+  .faSearch:before {
+    content: '\f002'; /* FontAwesome search icon */
+    font-family: 'FontAwesome';
+  }
+  
+  .icon-cart:before {
+    content: '\f07a'; /* FontAwesome cart icon */
+    font-family: 'FontAwesome';
+  }
+  
+  .icon-profile:before {
+    content: '\f007'; /* FontAwesome user icon */
+    font-family: 'FontAwesome';
+  }
+  
+  

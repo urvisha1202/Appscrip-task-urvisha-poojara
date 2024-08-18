@@ -1,0 +1,23 @@
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .footer .newsletter input {
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  .footer .social-links a {
+    color: #fff;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  

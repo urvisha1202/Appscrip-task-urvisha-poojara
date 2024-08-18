@@ -1,0 +1,93 @@
+/* src/FilterLayout.css */
+.filter-layout {
+    display: flex;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .filter-section {
+    width: 20%;
+    margin-right: 20px;
+  }
+  
+  .filter-section h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .hide-filter {
+    display: block;
+    margin-bottom: 20px;
+    background: none;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .filter-options {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+  }
+  
+  .filter-option {
+    margin-bottom: 10px;
+  }
+  
+  .filter-category h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .filter-category a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 12px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .content-section {
+    width: 25%;
+  }
+  
+  .sort-dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .sort-dropdown span {
+    cursor: pointer;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    width: 200px;
+    z-index: 1000;
+  }
+  
+  .sort-dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-menu div {
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .dropdown-menu div:hover {
+    background-color: #f0f0f0;
+  }
+ 
+  
+  

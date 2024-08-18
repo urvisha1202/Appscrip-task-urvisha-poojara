@@ -1,0 +1,8 @@
+/* App.css */
+.app {
+  font-family: Arial, sans-serif;
+}
+
+.app-body {
+  display: flex;
+}
